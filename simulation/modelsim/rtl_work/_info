@@ -1,0 +1,385 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\FPGA_source\FPGA_MP801\MP801_example_project\mdyOsc_v1.1\Oscill_main_top\simulation\modelsim
+T_opt
+V[z:mKDKbYS9k?ojhXgJzF0
+04 12 4 work final_top_tb fast 0
+=1-e4aaea553d05-61f53b42-271-4264
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.1c;51
+vfinal_top
+I`A1m1iAT?dzN>Hni3di;d1
+VFCnabW?9m2H0^z^M8S>`G2
+Z1 dC:\FPGA_source\FPGA_MP801\MP801_example_project\mdyOsc_v1.1\Oscill_main_top\simulation\modelsim
+w1643264047
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/final_top.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/final_top.v
+L0 1
+Z2 OL;L;10.1c;51
+r1
+31
+Z3 o-vlog01compat -work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z4 !s92 -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 oN;KTLIZg;gk`bgAEcZW`0
+!s85 0
+!s108 1643461441.131000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/final_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/final_top.v|
+vfinal_top_tb
+I4OTSD`lf_g@>lDO80<8o00
+VKIcJ35d9G@XLQnXLTY:MR1
+R1
+w1643264654
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/final_top_tb.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/final_top_tb.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 RcoS<CM?2LK60adz1]:SB1
+!s85 0
+!s108 1643461441.431000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/final_top_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/final_top_tb.v|
+vmultiwave
+I4PI<4VC;>:@QzBdVAVP:U3
+V0?JEe;n4QCTFQhM:bDC?21
+R1
+w1643459257
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/multiwave.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/multiwave.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 QN=gYVX2nMRVEfVaQPjaL2
+!s85 0
+!s108 1643461441.007000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/multiwave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/multiwave.v|
+vmy_juchi
+IDD[2_YB`X4HO`kK8c2aWG2
+Vflh^kzF:QmRiKEmCz41z>3
+R1
+w1643259499
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_juchi.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_juchi.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 jzMTD5=aN4XNdV]EJ??f82
+!s85 0
+!s108 1643461440.606000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_juchi.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_juchi.v|
+vmy_rec
+I<zkQJ>Q1zg6Q7B4[Phh[Z2
+V5E`K6LeDIXeh7A_689gbP2
+R1
+w1643259612
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_rec.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_rec.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 `L5MHjNVb@LCIKMP8AAUT1
+!s85 0
+!s108 1643461440.873000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_rec.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_rec.v|
+vmy_sin
+I]kZ7gRBE]K]mY]A3?mNo03
+V^W43JF^88>=KB4METTk[V0
+R1
+w1643259383
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_sin.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_sin.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Fk`QZEZMAzbNc_NW_Bn]`2
+!s85 0
+!s108 1643461440.469000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_sin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_sin.v|
+vmy_trig
+IDE=kJ@T`GCBJI9;mcTXXK0
+VB`NA6`72Ig55l9TQ0nkd03
+R1
+w1643259563
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_trig.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_trig.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Fgb^0GH^<cElZIPjjcJI:3
+!s85 0
+!s108 1643461440.739000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_trig.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_trig.v|
+vOscill_adc_clk
+I:49Ma:VHVG;:Xl=??Sh]D2
+VoZ>Pz[^B=GSa4H:GWW0IA3
+R1
+w1576810600
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_adc_clk.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_adc_clk.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@oscill_adc_clk
+!i10b 1
+!s100 `@b68HWb5T;aL3Q;FzQC63
+!s85 0
+!s108 1643461440.344000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_adc_clk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_adc_clk.v|
+vOscill_fifo
+IUgjN6iN4<ZZGVdPPNOkI51
+V_Gbl@8cndQDC2`Dke;X2W1
+R1
+w1643257942
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_fifo.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_fifo.v
+L0 39
+R2
+r1
+31
+R3
+R4
+n@oscill_fifo
+!i10b 1
+!s100 le70ZEa^WlHQBZ?zDi?gh2
+!s85 0
+!s108 1643461439.593000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_fifo.v|
+vOscill_fifo_sel
+IROK=jX0DDPciRB;EMS<GP2
+VINz6mjH2;O:Xk=e0CJTRb0
+R1
+w1643259093
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_fifo_sel.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_fifo_sel.v
+L0 39
+R2
+r1
+31
+R3
+R4
+n@oscill_fifo_sel
+!i10b 1
+!s100 O56X2VNb;2TH^TD045lN?2
+!s85 0
+!s108 1643461439.450000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_fifo_sel.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_fifo_sel.v|
+vOscill_key
+IUKLUeid_SKO4]GBZNJCQi0
+Vc]5EaM426FDEU6hG=2lAG1
+R1
+w1576810325
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_key.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_key.v
+L0 1
+R2
+r1
+31
+R3
+n@oscill_key
+R4
+!i10b 1
+!s100 `X]N6jU4Y>C>`1nAK`_Bl0
+!s85 0
+!s108 1643461439.071000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_key.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_key.v|
+vOscill_main
+I]_635KRD7f83d_BhWd7Vj2
+VeEge3m2573C31@h<Nc4EQ0
+R1
+w1643077657
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@oscill_main
+!i10b 1
+!s100 0`@KXE>1X0]hiO_PP3mk73
+!s85 0
+!s108 1643461440.220000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main.v|
+vOscill_main_top
+I7e28CIb@h72JIE9iRTOWL1
+V[8>R;L=]i:V29cfQWCAO_0
+R1
+w1576807350
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main_top.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main_top.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@oscill_main_top
+!i10b 1
+!s100 O8gOJVjL=IoeT56F1Jc2o2
+!s85 0
+!s108 1643461440.094000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main_top.v|
+vOscill_PLL_32M
+IgRoJ14WTcbROl040cTXb51
+V<[UgE5aRPlD[S4X5UQC1i2
+R1
+w1643454427
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_PLL_32M.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_PLL_32M.v
+L0 39
+R2
+r1
+31
+R3
+R4
+n@oscill_@p@l@l_32@m
+!i10b 1
+!s100 Ro[A_Ki[BUai=j^40^Di>2
+!s85 0
+!s108 1643461439.324000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_PLL_32M.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_PLL_32M.v|
+vOscill_PLL_32M_altpll1
+In[JL9_Ue@^hgQ:JVVL?FE2
+VjThJ;<>i5^@:7GF8OzOYR2
+R1
+w1643454457
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/db/oscill_pll_32m_altpll1.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/db/oscill_pll_32m_altpll1.v
+L0 29
+R2
+r1
+31
+R3
+n@oscill_@p@l@l_32@m_altpll1
+!i10b 1
+!s100 OG2o?DR@NmVbeak78`l@o0
+!s85 0
+!s108 1643461441.267000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/db/oscill_pll_32m_altpll1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/db|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/db/oscill_pll_32m_altpll1.v|
+!s92 -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/db -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vOscill_ram
+IaK:XXhG>]M<eEa8[XJD<Z2
+VVWC:V@G3N6;69JRk?bZGd2
+R1
+w1643080678
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_ram.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_ram.v
+L0 39
+R2
+r1
+31
+R3
+R4
+n@oscill_ram
+!i10b 1
+!s100 aaakRh`6i7EW9ohb_>QT70
+!s85 0
+!s108 1643461439.196000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_ram.v|
+vOscill_sel
+I[cm[W;]<10T<>B<H0Mc?60
+VF=FFf3:kMzJ2M8L^9TLfh1
+R1
+w1576806626
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_sel.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_sel.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@oscill_sel
+!i10b 1
+!s100 ?DW;mO<aI9V:ohN:O`8Dj2
+!s85 0
+!s108 1643461439.971000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_sel.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_sel.v|
+vOscill_show
+IaagL=nF8djT=E[FCEiBcV2
+VWQo0TXo`ihcRn=b]a:8MM0
+R1
+w1643460487
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_show.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_show.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@oscill_show
+!i10b 1
+!s100 Oe7ce5kO2lY1iUMjg1[nd1
+!s85 0
+!s108 1643461439.849000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_show.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_show.v|
+vOscill_vga_driver
+Ic;jfUWH?R3:cdz=j`Z0jd0
+VX6k4fGok0BUZO9GR7DZn81
+R1
+w1643456852
+8C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_vga_driver.v
+FC:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_vga_driver.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@oscill_vga_driver
+!i10b 1
+!s100 RWT;d]g>_YV2d_o1B9H9_3
+!s85 0
+!s108 1643461439.721000
+!s107 C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_vga_driver.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top|C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_vga_driver.v|

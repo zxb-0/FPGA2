@@ -1,0 +1,23 @@
+
+State Machine - |final_top|Oscill_main_top:Oscill_main_top|Oscill_key:uut8|key_out_old
+Name key_out_old.00011 key_out_old.00010 key_out_old.00001 key_out_old.00000 key_out_old.00100 
+key_out_old.00000 0 0 0 0 0 
+key_out_old.00001 0 0 1 1 0 
+key_out_old.00010 0 1 0 1 0 
+key_out_old.00011 1 0 0 1 0 
+key_out_old.00100 0 0 0 1 1 
+
+State Machine - |final_top|Oscill_main_top:Oscill_main_top|Oscill_key:uut8|key_out
+Name key_out.00011 key_out.00010 key_out.00001 key_out.00000 key_out.00100 
+key_out.00000 0 0 0 0 0 
+key_out.00001 0 0 1 1 0 
+key_out.00010 0 1 0 1 0 
+key_out.00011 1 0 0 1 0 
+key_out.00100 0 0 0 1 1 
+
+State Machine - |final_top|Oscill_main_top:Oscill_main_top|Oscill_main:uut1|state_c
+Name state_c.SHOW state_c.RAM state_c.TRIG state_c.IDLE 
+state_c.IDLE 0 0 0 0 
+state_c.TRIG 0 0 1 1 
+state_c.RAM 0 1 0 1 
+state_c.SHOW 1 0 0 1 

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at Oscill_show.v(99): always construct contains both blocking and non-blocking assignments File: C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_show.v Line: 99

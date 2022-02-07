@@ -1,0 +1,773 @@
+# Reading C:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do Oscill_main_top_run_msim_rtl_verilog.do 
+# if ![file isdirectory verilog_libs] {
+# 	file mkdir verilog_libs
+# }
+# 
+# vlib verilog_libs/altera_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_ver".
+# 
+# vmap altera_ver ./verilog_libs/altera_ver
+# Copying C:\modeltech64_10.1c\win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\modeltech64_10.1c\win64/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# vlog -vlog01compat -work altera_ver {c:/quartus/quartus/eda/sim_lib/altera_primitives.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module global
+# -- Compiling module carry
+# -- Compiling module cascade
+# -- Compiling module carry_sum
+# -- Compiling module exp
+# -- Compiling module soft
+# -- Compiling module opndrn
+# -- Compiling module row_global
+# -- Compiling module TRI
+# -- Compiling module lut_input
+# -- Compiling module lut_output
+# -- Compiling module latch
+# -- Compiling module dlatch
+# -- Compiling module prim_gdff
+# -- Compiling module dff
+# -- Compiling module dffe
+# -- Compiling module dffea
+# -- Compiling module dffeas
+# -- Compiling module dffeas_pr
+# -- Compiling module prim_gtff
+# -- Compiling module tff
+# -- Compiling module tffe
+# -- Compiling module prim_gjkff
+# -- Compiling module jkff
+# -- Compiling module jkffe
+# -- Compiling module prim_gsrff
+# -- Compiling module srff
+# -- Compiling module srffe
+# -- Compiling module clklock
+# -- Compiling module alt_inbuf
+# -- Compiling module alt_outbuf
+# -- Compiling module alt_outbuf_tri
+# -- Compiling module alt_iobuf
+# -- Compiling module alt_inbuf_diff
+# -- Compiling module alt_outbuf_diff
+# -- Compiling module alt_outbuf_tri_diff
+# -- Compiling module alt_iobuf_diff
+# -- Compiling module alt_bidir_diff
+# -- Compiling module alt_bidir_buf
+# -- Compiling UDP PRIM_GDFF_LOW
+# -- Compiling UDP PRIM_GDFF_LOW_SCLR_PRIORITY
+# -- Compiling UDP PRIM_GDFF_HIGH
+# -- Compiling UDP PRIM_GDFF_HIGH_SCLR_PRIORITY
+# 
+# Top level modules:
+# 	global
+# 	carry
+# 	cascade
+# 	carry_sum
+# 	exp
+# 	soft
+# 	opndrn
+# 	row_global
+# 	TRI
+# 	lut_input
+# 	lut_output
+# 	latch
+# 	dlatch
+# 	dff
+# 	dffe
+# 	dffea
+# 	dffeas
+# 	dffeas_pr
+# 	tff
+# 	tffe
+# 	jkff
+# 	jkffe
+# 	srff
+# 	srffe
+# 	clklock
+# 	alt_inbuf
+# 	alt_outbuf
+# 	alt_outbuf_tri
+# 	alt_iobuf
+# 	alt_inbuf_diff
+# 	alt_outbuf_diff
+# 	alt_outbuf_tri_diff
+# 	alt_iobuf_diff
+# 	alt_bidir_diff
+# 	alt_bidir_buf
+# 
+# vlib verilog_libs/lpm_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/lpm_ver".
+# 
+# vmap lpm_ver ./verilog_libs/lpm_ver
+# Modifying modelsim.ini
+# vlog -vlog01compat -work lpm_ver {c:/quartus/quartus/eda/sim_lib/220model.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module LPM_MEMORY_INITIALIZATION
+# -- Compiling module LPM_HINT_EVALUATION
+# -- Compiling module LPM_DEVICE_FAMILIES
+# -- Compiling module lpm_constant
+# -- Compiling module lpm_inv
+# -- Compiling module lpm_and
+# -- Compiling module lpm_or
+# -- Compiling module lpm_xor
+# -- Compiling module lpm_bustri
+# -- Compiling module lpm_mux
+# -- Compiling module lpm_decode
+# -- Compiling module lpm_clshift
+# -- Compiling module lpm_add_sub
+# -- Compiling module lpm_compare
+# -- Compiling module lpm_mult
+# -- Compiling module lpm_divide
+# -- Compiling module lpm_abs
+# -- Compiling module lpm_counter
+# -- Compiling module lpm_latch
+# -- Compiling module lpm_ff
+# -- Compiling module lpm_shiftreg
+# -- Compiling module lpm_ram_dq
+# -- Compiling module lpm_ram_dp
+# -- Compiling module lpm_ram_io
+# -- Compiling module lpm_rom
+# -- Compiling module lpm_fifo
+# -- Compiling module lpm_fifo_dc_dffpipe
+# -- Compiling module lpm_fifo_dc_fefifo
+# -- Compiling module lpm_fifo_dc_async
+# -- Compiling module lpm_fifo_dc
+# -- Compiling module lpm_inpad
+# -- Compiling module lpm_outpad
+# -- Compiling module lpm_bipad
+# 
+# Top level modules:
+# 	lpm_constant
+# 	lpm_inv
+# 	lpm_and
+# 	lpm_or
+# 	lpm_xor
+# 	lpm_bustri
+# 	lpm_mux
+# 	lpm_decode
+# 	lpm_clshift
+# 	lpm_add_sub
+# 	lpm_compare
+# 	lpm_mult
+# 	lpm_divide
+# 	lpm_abs
+# 	lpm_counter
+# 	lpm_latch
+# 	lpm_ff
+# 	lpm_shiftreg
+# 	lpm_ram_dq
+# 	lpm_ram_dp
+# 	lpm_ram_io
+# 	lpm_rom
+# 	lpm_fifo
+# 	lpm_fifo_dc
+# 	lpm_inpad
+# 	lpm_outpad
+# 	lpm_bipad
+# 
+# vlib verilog_libs/sgate_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/sgate_ver".
+# 
+# vmap sgate_ver ./verilog_libs/sgate_ver
+# Modifying modelsim.ini
+# vlog -vlog01compat -work sgate_ver {c:/quartus/quartus/eda/sim_lib/sgate.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module oper_add
+# -- Compiling module oper_addsub
+# -- Compiling module mux21
+# -- Compiling module io_buf_tri
+# -- Compiling module io_buf_opdrn
+# -- Compiling module oper_mult
+# -- Compiling module tri_bus
+# -- Compiling module oper_div
+# -- Compiling module oper_mod
+# -- Compiling module oper_left_shift
+# -- Compiling module oper_right_shift
+# -- Compiling module oper_rotate_left
+# -- Compiling module oper_rotate_right
+# -- Compiling module oper_less_than
+# -- Compiling module oper_mux
+# -- Compiling module oper_selector
+# -- Compiling module oper_decoder
+# -- Compiling module oper_bus_mux
+# -- Compiling module oper_latch
+# 
+# Top level modules:
+# 	oper_add
+# 	oper_addsub
+# 	mux21
+# 	io_buf_tri
+# 	io_buf_opdrn
+# 	oper_mult
+# 	tri_bus
+# 	oper_div
+# 	oper_mod
+# 	oper_left_shift
+# 	oper_right_shift
+# 	oper_rotate_left
+# 	oper_rotate_right
+# 	oper_less_than
+# 	oper_mux
+# 	oper_selector
+# 	oper_decoder
+# 	oper_bus_mux
+# 	oper_latch
+# 
+# vlib verilog_libs/altera_mf_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_mf_ver".
+# 
+# vmap altera_mf_ver ./verilog_libs/altera_mf_ver
+# Modifying modelsim.ini
+# vlog -vlog01compat -work altera_mf_ver {c:/quartus/quartus/eda/sim_lib/altera_mf.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# 
+# vlib verilog_libs/altera_lnsim_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_lnsim_ver".
+# 
+# vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver
+# Modifying modelsim.ini
+# vlog -sv -work altera_lnsim_ver {c:/quartus/quartus/eda/sim_lib/altera_lnsim.sv}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling package altera_lnsim_functions
+# -- Compiling package altera_generic_pll_functions
+# -- Compiling module generic_pll
+# -- Importing package altera_lnsim_functions
+# -- Importing package altera_generic_pll_functions
+# -- Compiling module generic_cdr
+# -- Compiling module common_28nm_ram_pulse_generator
+# -- Compiling module common_28nm_ram_register
+# -- Compiling module common_28nm_ram_block
+# -- Compiling module generic_m20k
+# -- Compiling module generic_m10k
+# -- Compiling module common_28nm_mlab_cell_pulse_generator
+# -- Compiling module common_28nm_mlab_latch
+# -- Compiling module common_28nm_mlab_cell_core
+# -- Compiling module common_porta_latches
+# -- Compiling module generic_28nm_hp_mlab_cell_impl
+# -- Compiling module common_porta_registers
+# -- Compiling module generic_28nm_lc_mlab_cell_impl
+# -- Compiling module common_28nm_lutram_register
+# -- Compiling module generic_14nm_mlab_cell_impl
+# -- Compiling module common_14nm_lutram_register
+# -- Compiling module generic_mux
+# -- Compiling module generic_device_pll
+# -- Compiling module altera_mult_add
+# -- Compiling module altera_mult_add_rtl
+# -- Compiling module ama_signed_extension_function
+# -- Compiling module ama_dynamic_signed_function
+# -- Compiling module ama_register_function
+# -- Compiling module ama_register_with_ext_function
+# -- Compiling module ama_data_split_reg_ext_function
+# -- Compiling module ama_coef_reg_ext_function
+# -- Compiling module ama_adder_function
+# -- Compiling module ama_multiplier_function
+# -- Compiling module ama_preadder_function
+# -- Compiling module ama_chainout_adder_accumulator_function
+# -- Compiling module ama_systolic_adder_function
+# -- Compiling module ama_scanchain
+# -- Compiling module ama_latency_function
+# -- Compiling module altera_pll_reconfig_tasks
+# -- Compiling module altera_syncram
+# -- Compiling module altera_syncram_forwarding_logic
+# -- Compiling module ALTERA_LNSIM_MEMORY_INITIALIZATION
+# -- Compiling module altera_stratixv_pll
+# -- Compiling module altera_arriav_pll
+# -- Compiling module altera_arriavgz_pll
+# -- Compiling module altera_cyclonev_pll
+# -- Compiling module altera_pll
+# -- Compiling module dps_extra_kick
+# -- Compiling module dprio_init
+# -- Compiling module dps_pulse_gen
+# -- Compiling module altera_iopll
+# -- Compiling module dps_pulse_gen_iopll
+# -- Compiling module twentynm_iopll_arlol
+# -- Compiling module fourteennm_altera_iopll
+# -- Compiling module dps_pulse_gen_fourteennm_iopll
+# -- Compiling package fourteennm_iopll_functions
+# -- Compiling module fourteennm_simple_iopll
+# -- Importing package fourteennm_iopll_functions
+# -- Compiling module fourteennm_sub_iopll
+# -- Compiling module twentynm_iopll_ip
+# -- Compiling module altera_iopll_rotation_lcells
+# -- Compiling module altera_pll_dps_lcell_comb
+# -- Compiling module iopll_bootstrap
+# 
+# Top level modules:
+# 	generic_cdr
+# 	generic_m20k
+# 	generic_m10k
+# 	common_porta_latches
+# 	generic_28nm_hp_mlab_cell_impl
+# 	generic_28nm_lc_mlab_cell_impl
+# 	generic_14nm_mlab_cell_impl
+# 	generic_mux
+# 	generic_device_pll
+# 	altera_mult_add
+# 	altera_pll_reconfig_tasks
+# 	altera_syncram
+# 	altera_pll
+# 	altera_iopll
+# 	fourteennm_altera_iopll
+# 	fourteennm_simple_iopll
+# 
+# vlib verilog_libs/cycloneive_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cycloneive_ver".
+# 
+# vmap cycloneive_ver ./verilog_libs/cycloneive_ver
+# Modifying modelsim.ini
+# vlog -vlog01compat -work cycloneive_ver {c:/quartus/quartus/eda/sim_lib/cycloneive_atoms.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFE
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS_HIGH
+# -- Compiling module cycloneive_dffe
+# -- Compiling module cycloneive_mux21
+# -- Compiling module cycloneive_mux41
+# -- Compiling module cycloneive_and1
+# -- Compiling module cycloneive_and16
+# -- Compiling module cycloneive_bmux21
+# -- Compiling module cycloneive_b17mux21
+# -- Compiling module cycloneive_nmux21
+# -- Compiling module cycloneive_b5mux21
+# -- Compiling module cycloneive_latch
+# -- Compiling module cycloneive_routing_wire
+# -- Compiling module cycloneive_m_cntr
+# -- Compiling module cycloneive_n_cntr
+# -- Compiling module cycloneive_scale_cntr
+# -- Compiling module cycloneive_pll_reg
+# -- Compiling module cycloneive_pll
+# -- Compiling module cycloneive_lcell_comb
+# -- Compiling module cycloneive_ff
+# -- Compiling module cycloneive_ram_pulse_generator
+# -- Compiling module cycloneive_ram_register
+# -- Compiling module cycloneive_ram_block
+# -- Compiling module cycloneive_mac_data_reg
+# -- Compiling module cycloneive_mac_sign_reg
+# -- Compiling module cycloneive_mac_mult_internal
+# -- Compiling module cycloneive_mac_mult
+# -- Compiling module cycloneive_mac_out
+# -- Compiling module cycloneive_io_ibuf
+# -- Compiling module cycloneive_io_obuf
+# -- Compiling module cycloneive_ddio_out
+# -- Compiling module cycloneive_ddio_oe
+# -- Compiling module cycloneive_pseudo_diff_out
+# -- Compiling module cycloneive_io_pad
+# -- Compiling module cycloneive_asmiblock
+# -- Compiling module cycloneive_ena_reg
+# -- Compiling module cycloneive_clkctrl
+# -- Compiling module cycloneive_rublock
+# -- Compiling module cycloneive_apfcontroller
+# -- Compiling module cycloneive_termination_ctrl
+# -- Compiling module cycloneive_termination_rupdn
+# -- Compiling module cycloneive_termination
+# -- Compiling module cycloneive_jtag
+# -- Compiling module cycloneive_crcblock
+# -- Compiling module cycloneive_oscillator
+# 
+# Top level modules:
+# 	cycloneive_dffe
+# 	cycloneive_and1
+# 	cycloneive_and16
+# 	cycloneive_bmux21
+# 	cycloneive_b17mux21
+# 	cycloneive_nmux21
+# 	cycloneive_b5mux21
+# 	cycloneive_pll_reg
+# 	cycloneive_pll
+# 	cycloneive_lcell_comb
+# 	cycloneive_ff
+# 	cycloneive_ram_block
+# 	cycloneive_mac_mult
+# 	cycloneive_mac_out
+# 	cycloneive_io_ibuf
+# 	cycloneive_io_obuf
+# 	cycloneive_ddio_out
+# 	cycloneive_ddio_oe
+# 	cycloneive_pseudo_diff_out
+# 	cycloneive_io_pad
+# 	cycloneive_asmiblock
+# 	cycloneive_clkctrl
+# 	cycloneive_rublock
+# 	cycloneive_apfcontroller
+# 	cycloneive_termination
+# 	cycloneive_jtag
+# 	cycloneive_crcblock
+# 	cycloneive_oscillator
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_key.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Oscill_key
+# 
+# Top level modules:
+# 	Oscill_key
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_ram.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Oscill_ram
+# 
+# Top level modules:
+# 	Oscill_ram
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_PLL_32M.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Oscill_PLL_32M
+# 
+# Top level modules:
+# 	Oscill_PLL_32M
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_fifo_sel.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Oscill_fifo_sel
+# 
+# Top level modules:
+# 	Oscill_fifo_sel
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_fifo.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Oscill_fifo
+# 
+# Top level modules:
+# 	Oscill_fifo
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_vga_driver.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Oscill_vga_driver
+# 
+# Top level modules:
+# 	Oscill_vga_driver
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_show.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Oscill_show
+# 
+# Top level modules:
+# 	Oscill_show
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_sel.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Oscill_sel
+# 
+# Top level modules:
+# 	Oscill_sel
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main_top.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Oscill_main_top
+# 
+# Top level modules:
+# 	Oscill_main_top
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Oscill_main
+# 
+# Top level modules:
+# 	Oscill_main
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_adc_clk.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Oscill_adc_clk
+# 
+# Top level modules:
+# 	Oscill_adc_clk
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_sin.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module my_sin
+# 
+# Top level modules:
+# 	my_sin
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_juchi.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module my_juchi
+# 
+# Top level modules:
+# 	my_juchi
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_trig.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module my_trig
+# 
+# Top level modules:
+# 	my_trig
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_rec.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module my_rec
+# 
+# Top level modules:
+# 	my_rec
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/multiwave.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module multiwave
+# 
+# Top level modules:
+# 	multiwave
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/final_top.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module final_top
+# 
+# Top level modules:
+# 	final_top
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/db {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/db/oscill_pll_32m_altpll1.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Oscill_PLL_32M_altpll1
+# 
+# Top level modules:
+# 	Oscill_PLL_32M_altpll1
+# 
+# vlog -vlog01compat -work work +incdir+C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top {C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/final_top_tb.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module final_top_tb
+# 
+# Top level modules:
+# 	final_top_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  final_top_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps final_top_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "Oscill_main(fast)".
+# 
+# ** Warning: c:/quartus/quartus/eda/sim_lib/altera_mf.v(31803): (vopt-2685) [TFMPC] - Too few port connections for 'DCFIFO_MW'.  Expected 14, found 13.
+# 
+# ** Warning: c:/quartus/quartus/eda/sim_lib/altera_mf.v(31803): (vopt-2718) [TFMPC] - Missing connection for port 'eccstatus'.
+# 
+# ** Warning: c:/quartus/quartus/eda/sim_lib/altera_mf.v(31803): (vopt-2685) [TFMPC] - Too few port connections for 'DCFIFO_MW'.  Expected 14, found 13.
+# 
+# ** Warning: c:/quartus/quartus/eda/sim_lib/altera_mf.v(31803): (vopt-2718) [TFMPC] - Missing connection for port 'eccstatus'.
+# 
+# Loading work.final_top_tb(fast)
+# Loading work.final_top(fast)
+# Loading work.Oscill_main_top(fast)
+# Loading work.Oscill_PLL_32M(fast)
+# Loading altera_mf_ver.altpll(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.MF_cycloneiii_pll(fast)
+# Loading altera_mf_ver.cda_m_cntr(fast)
+# Loading altera_mf_ver.cda_n_cntr(fast)
+# Loading altera_mf_ver.cda_scale_cntr(fast)
+# Loading altera_mf_ver.pll_iobuf(fast)
+# Loading work.Oscill_main(fast)
+# Loading work.Oscill_sel(fast)
+# Loading work.Oscill_fifo_sel(fast)
+# Loading altera_mf_ver.dcfifo(fast)
+# Loading altera_mf_ver.dcfifo_mixed_widths(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__1)
+# Loading altera_mf_ver.dcfifo_async(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__3)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__2)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__3)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__4)
+# Loading altera_mf_ver.dcfifo_fefifo(fast)
+# Loading altera_mf_ver.dcfifo_fefifo(fast__1)
+# Loading altera_mf_ver.dcfifo_low_latency(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__2)
+# Loading altera_mf_ver.ALTERA_MF_HINT_EVALUATION(fast)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__1)
+# Loading work.Oscill_adc_clk(fast)
+# Loading work.Oscill_fifo(fast)
+# Loading altera_mf_ver.dcfifo(fast__1)
+# Loading altera_mf_ver.dcfifo_mixed_widths(fast__1)
+# Loading altera_mf_ver.dcfifo_async(fast__1)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__7)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__8)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__9)
+# Loading altera_mf_ver.dcfifo_fefifo(fast__2)
+# Loading altera_mf_ver.dcfifo_fefifo(fast__3)
+# Loading altera_mf_ver.dcfifo_low_latency(fast__1)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__5)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__6)
+# Loading work.Oscill_ram(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.altsyncram_body(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__4)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.Oscill_show(fast)
+# Loading work.Oscill_vga_driver(fast)
+# Loading work.Oscill_key(fast)
+# Loading work.multiwave(fast)
+# Loading work.my_sin(fast)
+# Loading altera_mf_ver.altsyncram(fast__1)
+# Loading altera_mf_ver.altsyncram_body(fast__1)
+# Loading work.my_juchi(fast)
+# Loading altera_mf_ver.altsyncram(fast__2)
+# Loading altera_mf_ver.altsyncram_body(fast__2)
+# Loading work.my_rec(fast)
+# Loading altera_mf_ver.altsyncram(fast__3)
+# Loading altera_mf_ver.altsyncram_body(fast__3)
+# Loading work.my_trig(fast)
+# Loading altera_mf_ver.altsyncram(fast__4)
+# Loading altera_mf_ver.altsyncram_body(fast__4)
+# ** Warning: (vsim-3015) C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main_top.v(113): [PCDPC] - Port size (13 or 13) does not match connection size (16) for port 'show_addr'. The port definition is at: C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main.v(26).
+# 
+#         Region: /final_top_tb/final_top/Oscill_main_top/uut1
+# ** Warning: (vsim-3015) C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main_top.v(113): [PCDPC] - Port size (13 or 13) does not match connection size (16) for port 'ram_waddr'. The port definition is at: C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main.v(31).
+# 
+#         Region: /final_top_tb/final_top/Oscill_main_top/uut1
+# ** Warning: (vsim-3015) C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main_top.v(143): [PCDPC] - Port size (13 or 13) does not match connection size (16) for port 'rdusedw'. The port definition is at: C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_fifo.v(48).
+# 
+#         Region: /final_top_tb/final_top/Oscill_main_top/uut4
+# ** Warning: (vsim-3015) C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main_top.v(152): [PCDPC] - Port size (13 or 13) does not match connection size (16) for port 'rdaddress'. The port definition is at: C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_ram.v(42).
+# 
+#         Region: /final_top_tb/final_top/Oscill_main_top/uut5
+# ** Warning: (vsim-3015) C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_main_top.v(152): [PCDPC] - Port size (13 or 13) does not match connection size (16) for port 'wraddress'. The port definition is at: C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/Oscill_ram.v(43).
+# 
+#         Region: /final_top_tb/final_top/Oscill_main_top/uut5
+# ** Warning: (vsim-3015) C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/multiwave.v(43): [PCDPC] - Port size (6 or 6) does not match connection size (8) for port 'address'. The port definition is at: C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_sin.v(40).
+# 
+#         Region: /final_top_tb/final_top/multiwave/mysin
+# ** Warning: (vsim-3015) C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/multiwave.v(49): [PCDPC] - Port size (6 or 6) does not match connection size (8) for port 'address'. The port definition is at: C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_juchi.v(40).
+# 
+#         Region: /final_top_tb/final_top/multiwave/myjuchi
+# ** Warning: (vsim-3015) C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/multiwave.v(55): [PCDPC] - Port size (6 or 6) does not match connection size (8) for port 'address'. The port definition is at: C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_rec.v(40).
+# 
+#         Region: /final_top_tb/final_top/multiwave/myrec
+# ** Warning: (vsim-3015) C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/multiwave.v(61): [PCDPC] - Port size (6 or 6) does not match connection size (8) for port 'address'. The port definition is at: C:/FPGA_source/FPGA_MP801/MP801_example_project/mdyOsc_v1.1/Oscill_main_top/my_trig.v(40).
+# 
+#         Region: /final_top_tb/final_top/multiwave/mytrig
+# 
+# add wave *
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: final_top_tb.final_top.Oscill_main_top.uut5.altsyncram_component.m_default.altsyncram_inst
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 90000  Instance: final_top_tb.final_top.Oscill_main_top.uut0.altpll_component.cycloneiii_pll.pll3
+add wave -position insertpoint sim:/final_top_tb/final_top/Oscill_main_top/uut0/*

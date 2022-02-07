@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Jan 30 14:50:11 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : Oscill_main_top
+Top-level Entity Name : final_top
+Family : Cyclone IV E
+Total logic elements : 1,816
+    Total combinational functions : 1,192
+    Dedicated logic registers : 1,243
+Total registers : 1243
+Total pins : 49
+Total virtual pins : 0
+Total memory bits : 157,824
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
